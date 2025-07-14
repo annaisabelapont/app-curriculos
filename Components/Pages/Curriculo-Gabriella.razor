@@ -1,0 +1,120 @@
+﻿@page "/curriculo-Gabriella"
+@attribute [StreamRendering]
+@layout Layout.BaseLayout
+
+<PageTitle>Curriculo</PageTitle>
+
+<style>
+
+    body {
+        background-color: #d6d6d6;
+        font-family: 'Times New Roman', Times, serif;
+        color: #333;
+        margin: 40px;
+    }
+
+    .titulo {
+        font-size: 48px;
+        color: #4A90E2;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .subtitulo {
+        font-size: 28px;
+        color: #2C3E50;
+        margin-top: 30px;
+        padding-left: 12px;
+        margin-bottom: 20px;
+        border-left: 6px solid #4A90E2;
+    }
+
+
+    /*CSS DA PÁGINA CURRÍCULO*/
+
+
+    .curriculo {
+        max-width: 800px;
+        margin: auto;
+        background: #fff;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+
+    ul {
+        list-style-type: square;
+        margin-left: 20px;
+        line-height: 1.6;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .side-direita {
+        display: flex;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        border: 4px solid #4A90E2;
+    }
+
+</style>
+
+<h1>Currículo</h1>
+
+<div class="curriculo">
+    <h1 class="titulo">Gabriella Osório Ribeiro</h1>
+
+    <img src="imagens/myphoto.jpeg" alt="Minha foto" class="side-direita">
+
+    <h2 class="subtitulo">Dados pessoais</h2>
+
+
+    <ul>
+        <li>Endereço: Ji-Paraná, Rondônia</li>
+        <li>Telefone: (69) 99387-1133</li>
+        <li>Email: gabriellaribeiro0934@gmail.com</li>
+        <li>Instagram: gabii.ribeiro6</li>
+    </ul>
+
+    <h2 class="subtitulo">Formação Acadêmica</h2>
+    <p>
+        2023 - 2025 | Estudante do curso Técnico em Informática Integrado ao Ensino Médio<br>
+        Instituto Federal de Educação, Ciência e Tecnologia de Rondônia (IFRO)<br>
+        Campus Ji-Paraná - 3º ano.
+    </p>
+
+    <h2 class="subtitulo">Experiência</h2>
+    <p>
+        Atuação como pesquisadora no Instituto Federal de Rondônia (IFRO) – Campus Ji-Paraná, focada em Programação Paralela.<br>
+        Em 2024, publiquei dois artigos na Sociedade Brasileira de Computação (SBC), abordando temas relacionados à eficiência computacional e paralelismo em ambientes acadêmicos.
+    </p>
+
+    <h2 class="subtitulo">Produção Acadêmica</h2>
+    <ul>
+        <li>Avaliação de Desempenho dos Algoritmos de Números Primos e Monte Carlo em Ambientes HPC – publicado nos Anais do XXX Congresso da SBC, 2024.</li>
+        <li>Análise de Desempenho da Multiplicação de Matrizes em Diferentes Modelos de Raspberry Pi – apresentado no Workshop de Computação Paralela, SBC, 2024.</li>
+    </ul>
+
+
+    <h2 class="subtitulo">Idiomas</h2>
+    <ul>
+        <li>Português (língua materna)</li>
+        <li>Inglês intermediário</li>
+        <li>Espanhol básico</li>
+    </ul>
+
+
+    <h2 class="subtitulo">Habilidades</h2>
+    <ul>
+        <li>Trabalho bem em equipe</li>
+        <li>Tenho capacidade de liderança</li>
+        <li>Sou pontual e comunicativa</li>
+        <li>Programo em C#, C e JavaScript</li>
+    </ul>
+</div>
