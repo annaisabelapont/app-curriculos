@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Giovanna\\Documents\\ifro\\Programa\u00E7\u00E3o\\PDS\\app-curriculos\\",
+  "WorkspaceRootPath": "C:\\Users\\2023102020035\\Documents\\GitHub\\app-curriculos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Giovanna\\Documents\\ifro\\Programa\u00E7\u00E3o\\PDS\\app-curriculos\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0024931A-FC70-1413-7CC8-2FC4EF2BEBB1}|app-curriculos.csproj|c:\\users\\2023102020035\\documents\\github\\app-curriculos\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0024931A-FC70-1413-7CC8-2FC4EF2BEBB1}|app-curriculos.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0024931A-FC70-1413-7CC8-2FC4EF2BEBB1}|app-curriculos.csproj|c:\\users\\2023102020035\\documents\\github\\app-curriculos\\components\\pages\\curriculo-gabriella.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0024931A-FC70-1413-7CC8-2FC4EF2BEBB1}|app-curriculos.csproj|solutionrelative:components\\pages\\curriculo-gabriella.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0024931A-FC70-1413-7CC8-2FC4EF2BEBB1}|app-curriculos.csproj|c:\\users\\2023102020035\\documents\\github\\app-curriculos\\components\\pages\\curriculogio.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0024931A-FC70-1413-7CC8-2FC4EF2BEBB1}|app-curriculos.csproj|solutionrelative:components\\pages\\curriculogio.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,36 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Giovanna\\Documents\\ifro\\Programa\u00E7\u00E3o\\PDS\\app-curriculos\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Giovanna\\Documents\\ifro\\Programa\u00E7\u00E3o\\PDS\\app-curriculos\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T14:09:03.511Z",
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\2023102020035\\Documents\\GitHub\\app-curriculos\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\2023102020035\\Documents\\GitHub\\app-curriculos\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T15:03:01.057Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CurriculoGio.razor",
+              "DocumentMoniker": "C:\\Users\\2023102020035\\Documents\\GitHub\\app-curriculos\\Components\\Pages\\CurriculoGio.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\CurriculoGio.razor",
+              "ToolTip": "C:\\Users\\2023102020035\\Documents\\GitHub\\app-curriculos\\Components\\Pages\\CurriculoGio.razor",
+              "RelativeToolTip": "Components\\Pages\\CurriculoGio.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T14:59:09.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Curriculo-Gabriella.razor",
+              "DocumentMoniker": "C:\\Users\\2023102020035\\Documents\\GitHub\\app-curriculos\\Components\\Pages\\Curriculo-Gabriella.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Curriculo-Gabriella.razor",
+              "ToolTip": "C:\\Users\\2023102020035\\Documents\\GitHub\\app-curriculos\\Components\\Pages\\Curriculo-Gabriella.razor",
+              "RelativeToolTip": "Components\\Pages\\Curriculo-Gabriella.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-14T14:59:04.137Z",
+              "EditorCaption": ""
             }
           ]
         }
