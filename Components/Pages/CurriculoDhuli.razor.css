@@ -1,0 +1,46 @@
+h1 {
+  color: rgb(0, 0, 118);
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.fotoenome {
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: rgb(24, 24, 144);
+}
+
+img {
+  border-radius: 10px;
+}
+
+.pagina {
+  height: 100dvh;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 20px;
+  box-shadow: 0 0 20px 0 #00000060;
+  margin: 20px;
+}
+
+span {
+  font-size: 28px; color: blue;
+}
+
+.conteudo {
+  display: flex; gap: 10px;
+  flex-wrap: wrap;
+}
+
+.fatosobremim {
+  font-size: small;
+  display: flex;
+  align-items: center;
+  background-color: rgba(12, 12, 178, 0.247);
+  padding: 10px 15px;
+  border-radius: 5px;
+}
