@@ -2,42 +2,75 @@
 
 <PageTitle>Currículo</PageTitle>
 
-<h1>Currículo</h1>
+<style>
+  @* Esse estilo está aqui porque não consegui modificar a cor do elemento main (que, no DOM, está acima dos elementos da minha página atual) no arquivo css separado *@
+main {
+    background-image: url('imagens/arco-iris.png');
+    background-size: cover;
+  }
+</style>
 
-<h3>Anna Isabela Bianchini Pontuschka</h3>
+<div class="resume-sheet">
+  <h1>Currículo</h1>
 
-<section class="content">
-  <div>
-    <p>Proeficiências:</p>
-    <ul>
-      <li>HTML, CSS, JavaScript e TypeScript</li>
-      <li>Vue.js + Vue Router / Nuxt.js </li>
-      <li>Figma</li>
-      <li>C# / .NET</li>
-      <li>Git + GitHub</li>
-      <li>UI / UX</li>
-    </ul>
+  <hr>
 
-    <p>Experiência com:</p>
-    <ul>
-      <li>React + Vite</li>
-      <li>Wordpress + PHP</li>
-    </ul>
+  <div class="apresentation">
+    <img class="img-me" src="imagens/annaIsabelaESlender.jfif" alt="eu e o slender">
 
-    <p> Atualmente cursando Técnico em Informática Integrado ao Ensino Médio no Instituto Federal de Rondônia. </p>
+    <div>
+      <h4>Anna Isabela Bianchini Pontuschka <span class="h4-commentary">(à direita da imagem)</span></h4>
+      <h6>Estudante do 3°A Informática 2025</h6>
 
-    <p> Bolsista no projeto Sistema Gerador de Horário Acadêmico. Confira meu trabalho como desenvolvedora front-end no
-      <a target="_blank" href="https://github.com/ladesa-ro/web/commits/main/?author=annaisabelapont">repositório
-        presente
-        no GitHub</a>. </p>
-
-    <p> Ensino Fundamental concluído no Colégio Ulbra São Paulo. </p>
-
-    <p> Para ver mais, consulte o <a target="_blank" href="http://lattes.cnpq.br/7159991438315573">currículo no
-        Lattes</a>
-      e o <a target="_blank" href="https://github.com/annaisabelapont">perfil no GitHub!</a> </p>
-
+      <ul>
+        <li>Residência: Ji-Paraná - Rondônia</li>
+        <li>Telefone: +55 (69) 998</li>
+        <li>Email: annaisabelapont@gmail.com</li>
+        <li>GitHub: annaisabelapont</li>
+      </ul>
+    </div>
   </div>
-  
-  <img src="imagens/gato4.png" alt="eu programando">
-</section>
+
+  <section class="abilities">
+    <div>
+      <p>Proeficiências:</p>
+      <ul>
+        <li>HTML, CSS, JavaScript e TypeScript</li>
+        <li>Vue.js + Vue Router / Nuxt.js </li>
+        <li>Figma</li>
+        <li>C# / .NET</li>
+        <li>Git + GitHub</li>
+        <li>UI / UX</li>
+      </ul>
+
+      <p>Experiência com:</p>
+      <ul>
+        <li>React + Vite</li>
+        <li>Wordpress + PHP</li>
+      </ul>
+
+      <p> Atualmente cursando Técnico em Informática Integrado ao Ensino Médio no Instituto Federal de Rondônia. </p>
+
+      <p> Bolsista no projeto Sistema Gerador de Horário Acadêmico. Confira meu trabalho como desenvolvedora front-end
+        no
+        <a target="_blank" href="https://github.com/ladesa-ro/web/commits/main/?author=annaisabelapont">repositório
+          presente
+          no GitHub</a>.
+      </p>
+
+      <p> Ensino Fundamental concluído no Colégio Ulbra São Paulo. </p>
+
+      <p> Para ver mais, consulte o <a target="_blank" href="http://lattes.cnpq.br/7159991438315573">currículo no
+          Lattes</a>
+        e o <a target="_blank" href="https://github.com/annaisabelapont">perfil no GitHub!</a> </p>
+
+    </div>
+
+    <div>
+      <img src="imagens/gato4.png" alt="eu programando" class="img-gato">
+      <p class="img-description">
+        Anna Isabela em mais um dia de trabalho
+      </p>
+    </div>
+  </section>
+</div>

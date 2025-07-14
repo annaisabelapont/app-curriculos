@@ -1,9 +1,70 @@
-.content {
+* {
+  font-family: cursive;
+}
+
+/* ----- */
+
+.apresentation {
+  display: flex;
+  gap: 1rem;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(255, 0, 183);
+}
+
+.h4-commentary {
+  font-size: small;
+}
+
+h6 {
+  margin-bottom: 1.5rem;
+}
+
+.resume-sheet {
+  margin: 2.5rem 10rem;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.349);
+}
+
+.img-me {
+  width: 15rem;
+  border-radius: 0.5rem;
+}
+
+.name-and-course {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.name-and-course > h5 {
+  font-style: italic;
+}
+
+/* ----- */
+
+.abilities {
   display: flex;
   gap: 3rem;
 }
 
-img {
+.img-gato {
   width: 20rem;
   height: 15rem;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.img-description {
+  font-size: small;
+  font-weight: bold;
+}
+
+h6 {
+  font-style: italic;
 }
