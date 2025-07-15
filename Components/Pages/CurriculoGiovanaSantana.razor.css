@@ -1,0 +1,52 @@
+.giovana {
+  border-radius: 500px;
+  width: 200px;
+}
+
+h1 {
+  color: rgb(224, 27, 148);
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+.nome {
+  font-size: x-large;
+  color: rgb(223, 13, 142);
+}
+
+.titulo {
+  text-align: left;
+  font-size: x-large;
+  color: rgb(197, 17, 152);
+}
+
+.imagemENome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+section {
+  color: rgb(228, 0, 122);
+}
+
+.div {
+  justify-content: space-between;
+  display: flex;
+}
+
+.pagina {
+  margin: 10px 100px;
+  border: solid 1px grey;
+  padding: 30px;
+  height: 800px;
+}
+
+img {
+  width: 250px;
+}
+
+.cachorrinho {
+  height: 260px;
+}
